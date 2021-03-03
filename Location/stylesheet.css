@@ -1,0 +1,116 @@
+body {
+  background-color: #23395B;
+}
+
+header {
+  background-color: #EFF6EE;
+  width: 75%;
+  margin-left: 12.5%;   
+  border-radius: 20px;
+  border: 5px solid black;
+  margin-bottom: 5px;
+}
+
+h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 50px;
+  text-align: center;
+}
+
+.menu {
+  background-color: #294C60;
+  width: 750px;
+  height: 50px;
+  margin: 5px auto 10px auto;
+  font-size: 10pt;
+  text-align: left;
+  z-index: 7;
+  opacity: 0.75;
+  border-radius: 10px;
+}
+
+.menu-list {
+  padding: 5px 0 0 0;
+  text-align: center;
+}
+
+.menu-item {
+  display: inline;
+  padding: 20px;
+  margin: 0px;
+  text-align: center;
+  font-size: 33px;
+}
+
+.menu-item a {
+  text-decoration: none;
+  color: white;
+  border: none;
+}
+
+.menu-item a:hover {
+  color: grey;
+  font-size: 35px;
+  text-decoration: underline grey;
+}
+
+.content {
+  background-color: #EFF6EE;
+  width: 75%;
+  margin-left: 12.5%;   
+  border-radius: 20px;
+  border: 5px solid black;
+  margin-bottom: 5px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 28px;
+}
+
+.map {
+  text-align:center;
+  width:100%;
+  padding-bottom: 16px;
+  border-bottom: 5px solid black;
+}
+
+table {
+  display: table;
+  background-color: #a7cda1;
+  width: 75%;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.table thead, .table tbody {
+  float: left;
+  width:100%;
+  border: 1px solid black;
+}
+
+.table tbody {
+  overflow: auto;
+  height: 150px;
+}
+
+.table tr {
+  width: 100%;
+  display: table;
+  text-align: left;
+  
+}
+
+th, td {
+  border-collapse: collapse;
+  width: 20%;
+  text-align: left;
+}
+
+tr:hover {
+  background-color: #91c28a ;
+}

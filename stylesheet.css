@@ -1,0 +1,198 @@
+body {
+    background-color: #23395B;
+}
+
+header {
+    background-color: #EFF6EE;
+    width: 75%;
+    margin-left: 12.5%;   
+    border-radius: 20px;
+    border: 5px solid black;
+    margin-bottom: 5px;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.slideshow-area {
+    background-color: #EFF6EE;
+    width: 75%;
+    margin-left: 12.5%;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    border: 5px solid black;
+    margin-bottom: 5px;
+}
+
+.intro-area {
+    background-color: #EFF6EE;
+    width: 75%;
+    margin-left: 12.5%;
+    border-radius: 20px;
+    border: 5px solid black;
+    padding-left: 16px;
+    padding-bottom: 16px;
+    padding-right: 20px;
+    font-size: 21px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  /* margin-top: 16px;
+  margin-left: 16px;
+  margin-bottom: 16px; */
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.menu {
+    background-color: #294C60;
+    width: 750px;
+    height: 50px;
+    margin: 5px auto 10px auto;
+    font-size: 10pt;
+    text-align: left;
+    z-index: 7;
+    opacity: 0.75;
+    border-radius: 10px;
+}
+
+.menu-list {
+    padding: 5px 0 0 0;
+    text-align: center;
+}
+
+.menu-item {
+    display: inline;
+    padding: 20px;
+    margin: 0px;
+    text-align: center;
+    font-size: 33px;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: white;
+    border: none;
+}
+
+.menu-item a:hover {
+    color: grey;
+    font-size: 35px;
+    text-decoration: underline grey;
+}
+
+* {box-sizing:border-box}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+    font-family: sans-serif;
+    color: white;
+    background-color: black;
+    font-size: 18px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.text a {
+    font-family: sans-serif;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.text a:hover {
+    font-family: sans-serif;
+    color: #9e9a9a;
+    text-shadow: 4px;
+    text-decoration: underline;
+}
+
+.numbertext {
+  color: #000000;
+  font-size: 16px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}

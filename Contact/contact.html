@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fire Lookout Rentals - Contact</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <header>
+        <h1>Fire Lookout Rentals</h1>
+        <div class="menu">
+            <ul class="menu-list">
+                <li class="menu-item"><a href="./CS290-Project/index.html">Home</a></li>
+                <li class="menu-item"><a href="./CS290-Project/History/history.html">History</a></li>
+                <li class="menu-item"><a href="./CS290-Project/Location/location.html">Location</a></li>
+                <li class="menu-item"><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <div id="form-area">
+        <h2>Please complete the following form to inquire about reserving a firetower overnight.</h2>
+        <form action="" class="reservation-inq" id="res-form">
+            <div class="name">
+                <label for="name">Name: </label>
+                <input type="text" name="name" id="name" placeholder="First and Last Name" required>
+            </div>
+            <div class="email">
+                <label for="email">E-Mail: </label>
+                <input type="email" name="email" id="email" placeholder="example@email.com" required>
+            </div>
+            <div class="phone">
+                <label for="phone">Cell Phone: </label>
+                <input type="text" name="phone" id="phone" maxlength="10" placeholder="0123456789" required>
+            </div>
+            <div class="firetower">
+                <label for="firetower">Firetower: </label>
+                <select name="firetower" id="firetower">
+                    <option value="granite">Granite Mountain Lookout</option>
+                    <option value="thorp">Thorp Mountain Lookout</option>
+                    <option value="redtop">Red Top Mountain Lookout</option>
+                    <option value="pilchuck">Mount Pilchuck Lookout</option>
+                    <option value="evergreen">Evergreen Mountain Lookout</option>
+                    <option value="alpine">Alpine Mountain Lookout</option>
+                    <option value="gobblers">Gobbler's Knob Lookout</option>
+                    <option value="highrock">High Rock Lookout</option>
+                    <option value="tolmie">Tolmie Peak Lookout</option>
+                    <option value="shriner">Shriner Peak Lookout</option>
+                    <option value="fremont">Mount Fremont Lookout</option>
+                </select>
+            </div>
+            <div class="start">
+                <label for="start">Check-In Date: </label>
+                <input type="date" name="start" id="start" required>
+            </div>
+            <div class="end">
+                <label for="end">Check-Out Date: </label>
+                <input type="date" name="end" id="end" required>
+            </div>
+            <div class="special-requests">
+                <label for="requests">Special Requests: </label>
+                <textarea name="requests" id="requests" placeholder="Write something..." style="height: 200px"></textarea>
+            </div>
+            <div class="submit-form">
+                <input type="submit" value="Submit" id="submit-form">
+            </div>
+        </form>
+    </div>
+    <div id="form-success" style="display:none">
+        <h2>Thank you for your request. One of our associates will contact you to complete your reservation.</h2>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

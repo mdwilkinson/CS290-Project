@@ -1,0 +1,123 @@
+body {
+  background-color: #23395B;
+}
+
+header {
+  background-color: #EFF6EE;
+  width: 75%;
+  margin-left: 12.5%;   
+  border-radius: 20px;
+  border: 5px solid black;
+  margin-bottom: 5px;
+}
+
+h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 50px;
+  text-align: center;
+}
+
+.menu {
+  background-color: #294C60;
+  width: 750px;
+  height: 50px;
+  margin: 5px auto 10px auto;
+  font-size: 10pt;
+  text-align: left;
+  z-index: 7;
+  opacity: 0.75;
+  border-radius: 10px;
+}
+
+.menu-list {
+  padding: 5px 0 0 0;
+  text-align: center;
+}
+
+.menu-item {
+  display: inline;
+  padding: 20px;
+  margin: 0px;
+  text-align: center;
+  font-size: 33px;
+}
+
+.menu-item a {
+  text-decoration: none;
+  color: white;
+  border: none;
+}
+
+.menu-item a:hover {
+  color: grey;
+  font-size: 35px;
+  text-decoration: underline grey;
+}
+
+#form-area {
+  background-color: #EFF6EE;
+  width: 75%;
+  margin-left: 12.5%;   
+  border-radius: 20px;
+  border: 5px solid black;
+  margin-bottom: 5px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 28px;
+}
+
+label {
+  display:inline-block;
+  width: 100%; 
+  padding: 12px; 
+  margin-left: 8px;
+}
+
+input[type=text], input[type=email], select, textarea {
+  width: 95%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-left: 16px;
+  resize: vertical;
+}
+
+input[type=date]  {
+  width: 25%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-left: 16px;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  margin-top: 16px;
+  margin-left: 16px;
+  margin-bottom: 16px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+#form-success {
+  text-align: center;
+  font-size: 28px;
+  background-color: #EFF6EE;
+  width: 75%;
+  margin-left: 12.5%;   
+  border-radius: 20px;
+  border: 5px solid black;
+  margin-bottom: 5px;
+  padding: 20px;
+}
